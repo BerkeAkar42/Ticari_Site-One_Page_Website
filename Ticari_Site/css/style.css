@@ -1,0 +1,239 @@
+body{
+    /* Yana kaydırma çubuğunu kapattık */
+    overflow-x: hidden;
+
+    /* Kayan Fotoğraf */
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    box-sizing: border-box;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#cover{
+    /* Kayan Fotoğraf */
+    background: url(../images/anasayfa/Software_bg.jpg) no-repeat center fixed;
+    height: 800px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+}
+
+/* Header */
+
+.fixed-top{
+    background-color: #000;
+}
+
+/* #YazilimResim{
+    width: 100vw;
+    height: 800px;
+    object-fit: cover;
+} */
+.navbar-nav .nav-item .nav-link:hover{
+    color: #ff9c00; /* Üzerine gelince değişen renk */
+    background-color: #ffffff; /* Hafif arka plan rengi */
+    border-radius: 5px; /* Köşeleri yuvarlak yap */
+    transition: 0.3s ease-in-out; /* Yumuşak geçiş efekti */
+}
+.nav-link{
+    color: #ff9c00;
+}
+
+.header-logo{
+    height: 45px; width: auto;
+    margin: 8px 0 0 0;
+    float: right;
+}
+.h1-logo{
+    color: #ff9c00;
+    float: left;
+    margin:3px 0 0 0;
+}
+
+
+/* hizmetler */
+
+#hizmetler{
+    background-color: #fff;
+    margin:0 0 15px 0;
+    padding:60px 0 0 0;
+}
+.row-hizmetler{
+    height:350px;
+}
+.h1-hizmetler{
+    text-align: center;
+    margin:0 0 60px 0;
+}
+.h4-hizmetler{
+    text-align: center;
+    color: #000;
+    margin:0 0 30px 0;
+}
+.p-hizmetler{
+    text-align: center;
+}
+
+/* Yönetim */
+
+#yonetim{
+    background-color: #ebeaea;
+    height:1100px;
+    padding: 60px 0 0 0;
+}
+.row-yonetim{
+    height:400px;
+}
+.row-yonetim-div{
+    margin:0 auto 0 0;
+}
+.h1-yonetim{
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+.h1-yonetici{
+    text-align: center;
+}
+.h6-yonetici{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+/* Hakkımızda */
+
+#hakkimizda{
+    background-color: #fff;
+    padding: 40px 0 0 0;
+}
+.row-hakkimizda{
+    height:1700px;
+}
+.h1-hakkimizda{
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+.hakkimizda-div{
+    height: 300px;
+}
+.h2-hakkimizda{
+    text-align: center;
+    
+}
+
+/* Ekip */
+
+#ekip{
+    background-color: #e0e0e0;
+    padding: 60px 0 0 0;
+    height: 620px;
+}
+.row-ekip{
+    height:400px;
+}
+.h1-ekibimiz{
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+.row-ekip-div{
+    margin:0 auto 0 0;
+}
+.h1-ekip{
+    text-align: center;
+    margin: 15px 0 0 0;
+}
+
+/* iletişim */
+
+#iletisim{
+    background-color: #000;
+    height: 600px;
+    padding: 60px 0 0 0;
+}
+
+.row-iletisim{
+    height:300px
+}
+.h1-iletisim{
+    text-align: center;
+    color: #fff;
+    margin: 0 0 20px 0;
+}
+.p-iletisim{
+    text-align: center;
+    color: #fff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:1px 0 0 0;
+}
+
+#ad{
+    margin: 0;
+}
+#email{
+    margin: 12px 0 0 0;
+}
+#soyad{
+    margin: 12px 0 0 0;
+}
+#telefon{
+    margin: 12px 0 0 0;
+}
+
+#mesaj{
+    width: 100%;
+    height: 190px;
+    resize: vertical;
+    margin: 0;
+}
+.custom-button {
+    background-color: #ff9c00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.custom-button:hover{
+    background-color: #fff;
+    color: #ff9c00;
+}
+
+
+/* odeme */
+
+#odeme{
+    height: 150px;
+    background-color: #ebeaea;
+}
+.row-odeme{
+    height: 60px;
+}
+.col-odeme{
+    margin: 15px 0 0 0;
+}
+.h4-odeme{
+    text-align: center;
+    margin: 25px 0 0 0;
+}
+
+
+/* footer */
+
+#footer{
+    background-color: #fff;
+    height: 60px;
+}
+.h6-footer{
+    margin: 15px 0 0 0;
+    color: #ff9c00;
+}
+.footer-logolar{
+    margin: 15px 0 0 0;
+
+}
+.bi{
+    color: #ff9c00;
+}
